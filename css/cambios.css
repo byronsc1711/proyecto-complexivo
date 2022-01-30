@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.contenedor{
+    width: 80%;
+    max-width: 1000px;
+    margin: 30px auto;
+    overflow: hidden;
+
+}
+
+h1{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.barra__buscador{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.formulario{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.btn__nuevo{
+    float: right;
+    background: #1b743c !important;
+}
+
+.btn__group{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table .head{
+    background: #572364;
+    border-collapse: collapse;
+}
+
+table .head td{
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+table tr td{
+    border:1px solid #ccc;
+    padding: 7px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+.btn__update{
+    display: inline-block;
+    font-size: 14px;
+    background: #008F39;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.btn__delete{
+    display: inline-block;
+    font-size: 14px;
+    background: #CB3234;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.form-label{
+    font-size: 16px;
+    color:#515151;
+}
+
+.modal-header {
+    background: #572364;
+    color: #fff;
+}
+
+.modal-footer .btn-danger{
+    background: #CB3234;
+    color: #fff;
+}
+
+.modal-footer .btn-success{
+    background: #008F39;
+    color: #fff;
+}
+
+.nuevo{
+    position: absolute;
+    right: 500px;
+}
+
+
+
+  
+
